@@ -19,3 +19,27 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   perspective: 1000px rotateX(var(--rotateX, 0deg));
 }
+
+.new-card-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.new-card-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.new-card-button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
