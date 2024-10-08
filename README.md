@@ -4,7 +4,7 @@ Submitted by: **Andry Rakotonjanabelo**
 
 This web app: **insert description**
 
-Time spent: **X** hours spent in total
+Time spent: **3.5** hours spent in total
 
 ## Required Features
 
