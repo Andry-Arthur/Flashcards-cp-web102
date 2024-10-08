@@ -28,7 +28,7 @@
 .new-card-button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  margin: 1rem 0;
+  margin: 1rem 0 1rem 1rem; /* Add left margin to ensure it doesn't stick to the prev button */
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
@@ -54,6 +54,36 @@
   transform: rotateY(180deg);
 }
 
+.guess-section {
+  color: white;
+}
+
+.guess-section input {
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  box-sizing: border-box;
+  height: 2.5rem; /* Ensure the input has the same height as the button */
+}
+
+.guess-section button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  height: 2.5rem; /* Ensure the button has the same height as the input */
+}
+
 .new-card-button:hover {
   background-color: #0056b3;
   transform: scale(1.05);
@@ -61,5 +91,53 @@
 
 .new-card-button:active {
   background-color: #004494;
+  transform: scale(1);
+}
+
+.previous-card-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.previous-card-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.previous-card-button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
+
+.shuffle-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0 1rem 1rem; /* Add left margin to ensure it doesn't stick to the next button */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: plum;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.shuffle-button:hover {
+  background-color: plum;
+  transform: scale(1.05);
+}
+
+.shuffle-button:active {
+  background-color: purple;
   transform: scale(1);
 }

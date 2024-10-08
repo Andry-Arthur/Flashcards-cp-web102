@@ -8,7 +8,12 @@ const Flashcard = (props) => {
     };
 
     return (
-        <div id={props.id} className={`flashcard ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
+        <div 
+            id={props.id} 
+            className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
+            onClick={handleFlip} 
+            style={{ backgroundColor: props.cardColor }}
+        >
             <div className="content">        
                 {isFlipped ? <div className="back">{props.answer}</div> : <div className="front">{props.question}</div>}
             </div>
