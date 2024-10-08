@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='/AndryWEB102P2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/AndryWEB102P2-p2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
