@@ -62,6 +62,22 @@ The following **optional** features are implemented:
   - [ ] *visual style implemented*
 
 ## Notes
+I enjoyed adding complexity to the application through more states and input/event handling.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img src='/AndryWEB102P2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ScreenToGif
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
 
 I enjoyed thinking about a practical way to dynamically change the cards using useState constants.
 
